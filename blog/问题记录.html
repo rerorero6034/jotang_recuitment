@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="artical.css">
+    <title>Document</title>
+</head>
+<body><div id="main_box"><h3>如何解决子元素自动撑开父元素？</h3>
+    <p>我的解决方案是不设置父元素高度，将子元素的定位方式改为relative，可解决部分问题</p>
+    <h3>getElementsByClassName相关</h3>
+    <p>js中getsElementsByClassName('xxx')是获得classname为xxx的所有对象的集合，相当于返回的是个数组，如果要通过上述方法获得某个指定的对象，则要在之后加入定位符，如
+    </p>
+    <p>let but = document.getElementsByClassName('but')[0];</p>
+    <h3>html引用多个js文件，部分js不生效</h3>
+    <p>我在一个html文件里引用了两个js文件，但只有一个生效
+在<\script>加上type='module'即可</p>
+    <h3>操作DOM的js文件不生效</h3>
+    <p>一段关于dom增加节点的js代码，放在js里可以正确执行，但单独放在一个js文件了就不行。没有js路径的问题。
+上网查资料后了解到，js文件会阻塞dom的加载，而我的js引用代码是放在html文件的head里的，导致对dom的操作是在对dom加载完成前进行的，故出现错误
+将js引用代码放在html的body的末尾部分即可解决该问题。
+同时css不会阻塞dom的加载，它只会阻塞对dom渲染的加载
+这问题起码拖了我一天 X_X</p>
+
+
+
+
+
+
+</div>
+    
+</body>
+</html>
