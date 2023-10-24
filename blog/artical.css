@@ -1,0 +1,8 @@
+#main_box{
+    position: absolute;
+    left: 20vw;
+
+    width: 60vw;
+    background-color: antiquewhite;
+    font-size: 3vh;
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bilibili.css">
+    <title>bilibili</title>
+</head>
+<body>
+     <div id="header">
+        <ul id="headerUl1">
+            <li class="headerTags" id="home">首页</li>
+            <li class="hover" id="home1"><a href="bilibili.html">前往首页</a></li>
+            <li class="headerTags" id="fanju">番剧</li>
+            <li class="hover" id="fanju1">热门番剧！</li>
+            <li class="headerTags" id="live">直播</li>
+            <li class="hover" id="live1">直播</li>
+            <li class="headerTags" id="gameCenter">游戏中心</li>
+            <li class="hover" id="gameCenter1">
+                <img src="/public/游戏图标.png" style="border-radius: 30px;">
+                <img src="/public/游戏图标 (2).png">
+            </li>
+            <li class="headerTags" id="shop">会员购</li>
+            <li class="hover" id="shop1">bilibili会员购</li>
+            <li class="headerTags" id="comic">漫画</li>
+            <li class="hover" id="comic1">热门漫画</li>
+            <li class="headerTags" id="games">赛事</li>
+            <li class="hover" id="games1">热门赛事</li>
+            <li class="headerTags"><img src="/public/畅玩s13.png" id="s13"></li>
+            <li class="headerTags" id="download">下载客户端</li>
+            <li class="hover" id="download1">
+                <div id="peDownload">手机版下载
+                    <img style="width: 70%;"  src="/public/下载.png">
+                </div>
+                <div id="pcDownload">windows下载
+                    <a href=""></a>
+                </div>
+            </li>
+            <li><input type="text" placeholder="   搜索" id="searchbox"></li>
+        </ul>
+        
+        <ul id="headerUl2">
+            <li class="headerTags" id="bigMembers">大会员</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="messages">消息</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="show">动态</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="enshire">收藏</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="history">历史</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="creationCenter">创作中心</li>
+            <li class="hover" id=""></li>
+            <input type="button" value="投稿" id="contribute">
+        </ul>
+        
+        <img id="logo" src="/public/bilibili图标.png">
+    </div>
+   
+    <div id="midium">
+        <table id="classfication">
+            <tr>
+                <td><input type="button" value="番剧" class="classButton"></td>
+                <td><input type="button" value="国创" class="classButton"></td>
+                <td><input type="button" value="综艺" class="classButton"></td>
+                <td><input type="button" value="动画" class="classButton"></td>
+                <td><input type="button" value="鬼畜" class="classButton"></td>
+                <td><input type="button" value="舞蹈" class="classButton"></td>
+                <td><input type="button" value="娱乐" class="classButton"></td>
+                <td><input type="button" value="科技" class="classButton"></td>
+                <td><input type="button" value="美食" class="classButton"></td>
+                <td><input type="button" value="汽车" class="classButton"></td>
+                <td><input type="button" value="运动" class="classButton"></td>
+                
+                
+            </tr>
+            <tr>
+                <td><input type="button" value="电影" class="classButton"></td>
+                <td><input type="button" value="电视剧" class="classButton"></td>
+                <td><input type="button" value="纪录片" class="classButton"></td>
+                <td><input type="button" value="游戏" class="classButton"></td>
+                <td><input type="button" value="音乐" class="classButton"></td>
+                <td><input type="button" value="影视" class="classButton"></td>
+                <td><input type="button" value="知识" class="classButton"></td>
+                <td><input type="button" value="资讯" class="classButton"></td>
+                <td><input type="button" value="生活" class="classButton"></td>
+                <td><input type="button" value="时尚" class="classButton"></td>
+                <td><input type="button" value="更多" class="classButton"></td>
+                
+            </tr>
+            
+            
+        </table>
+        <table id='classfication2'>
+            <tr>
+                <td><input type="button" value="专栏" class="classButton2"></td>
+                <td><input type="button" value="活动" class="classButton2"></td>
+                <td><input type="button" value="社区中心" class="classButton2"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="直播" class="classButton2"></td>
+                <td><input type="button" value="课堂" class="classButton2"></td>
+                <td><input type="button" value="新歌新榜" class="classButton2"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div id="divider"></div>
+    <div id="mainBody">
+        <div id="pictrues">
+            <img id="carousel" src="/public/轮播图1.jpg">
+            <div id="previous"></div>
+            <div id="next"></div> 
+            <div id="dots"></div>
+        </div>
+        <div class="videoCard">
+            <a id="video1" href='videos.html'><div><video loop="loop" id="theVideo" src="/public/test.mp4"></video></div><img class="videoCover" src="/public/视频 (2).jpg"></img><span class="detail">___播放量：5万   弹幕数；2000</span></a>
+            <p class="introduction">千万不要买《使命召唤20》！玩家的怨种，游戏界的耻辱。</p>
+            <div class="words">
+            <p class="tag"></p>
+            <p class="upper">影佑</p>
+            <p class="time">10-8</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (3).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">中学生表演刺杀安倍甚至上了日本新闻？</p>
+            <div class="words">
+            <p class="tag"></p>
+            <p class="upper">唯一讲述者</p>
+            <p class="time">10-13</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (4).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">不再2费南进计划？那就3费希佩尔，4费战略轰炸！</p>
+            <div class="words">
+            <p class="tag"></p>
+            <p class="upper">鲲鹏驹的奇思怪谈</p>
+            <p class="time">10-8</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (5).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">现场直播</p>
+            <div class="words">
+            <p class="tag">直播</p>
+            <p class="upper"></p>
+            <p class="time"></p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (6).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">失恋的体育生有多可怕！队长失恋了 800m狂甩第二名200m！</p>
+            <div class="words">
+            <p class="tag"></p>
+            <p class="upper">唐跑跑伯乐体育</p>
+            <p class="time">9-26</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (7).jpg" ><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">二本·海默！我现在变成学生，试卷的毁灭者</p>
+            <div class="words">
+            <p class="tag">3万点赞</p>
+            <p class="upper">星空下的学生党</p>
+            <p class="time">10-5</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (8).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">【战地2042】欢乐日常：加载界面就已经提示我们玩什么专家了</p>
+            <div class="words">
+            <p class="tag"></p>
+            <p class="upper">朽火</p>
+            <p class="time">10-12</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (9).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">脑子：你已经看了好几遍了！</p>
+            <div class="words">
+            <p class="tag"></p>
+            <p class="upper">月月岛tori</p>
+            <p class="time">10-7</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (10).jpg"><span class="detail">___播放量：5万播放量：5万   弹幕数；2000</span>
+            <p class="introduction">短短八秒，道尽多少原始人的辛酸</p>
+            <div class="words">
+            <p class="tag">已关注</p>
+            <p class="upper">两只沈梦溪</p>
+            <p class="time">10-13</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (11).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">白墨！不败的英雄</p>
+            <div class="words">
+            <p class="tag">已关注</p>
+            <p class="upper">旅人Cheems</p>
+            <p class="time">22小时前</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (12).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">[4K]皮特：DF完全体都打不过，黄金局全是挂勾！这游戏到底是谁在赢</p>
+            <div class="words">
+            <p class="tag"></p>
+            <p class="upper">凤梨气泡韭</p>
+            <p class="time">10-9</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (13).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">平民绝望！！1.4版本这些角色遭史诗级削弱 反向更新来了</p>
+            <div class="words">
+            <p class="tag"></p>
+            <p class="upper">午觉已到</p>
+            <p class="time">19小时前</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (14).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">一段独具匠心的表演，一段肤浅的爱......</p>
+            <div class="words">
+            <p class="tag"></p>
+            <p class="upper">-宋瑞</p>
+            <p class="time">10-11</p>
+            </div>
+        </div>
+        <div class="videoCard">
+            <img class="videoCover" src="/public/视频 (15).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+            <p class="introduction">镜流数值膨胀了！我不知道</p>
+            <div class="words">
+            <p class="tag">已关注</p>
+            <p class="upper">老沐ocean</p>
+            <p class="time">10-13</p>
+            </div>
+        </div>
+        <div class="videoCard">
+           <img class="videoCover" src="/public/视频 (16).jpg"><span class="detail">___播放量：5万   弹幕数；2000</span>
+           <p class="introduction">五条悟死后，无数的人来到战场！100多张！</p>
+           <div class="words">
+           <p class="tag"></p>
+           <p class="upper">控那</p>
+           <p class="time">10-3</p>
+        </div>
+    </div>
+    </div>
+    
+</div>
+  
+    <div id="header1">
+        <ul>
+            <li id="home1">123</li>
+        </ul>
+    </div>
+</body>
+</html>
+<script src="bilibili.js"></script>
+<script type="module" src="headerHover.js"></script>
