@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="videos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <ul id="headerUl1">
+            <li class="headerTags" id="home">首页</li>
+            <li class="hover" id="home1"><a href="bilibili.html">前往首页</a></li>
+            <li class="headerTags" id="fanju">番剧</li>
+            <li class="hover" id="fanju1">热门番剧！</li>
+            <li class="headerTags" id="live">直播</li>
+            <li class="hover" id="live1">直播</li>
+            <li class="headerTags" id="gameCenter">游戏中心</li>
+            <li class="hover" id="gameCenter1">
+                <img src="../public/游戏图标.png" style="border-radius: 30px;">
+                <img src="../public/游戏图标 (2).png">
+            </li>
+            <li class="headerTags" id="shop">会员购</li>
+            <li class="hover" id="shop1">bilibili会员购</li>
+            <li class="headerTags" id="comic">漫画</li>
+            <li class="hover" id="comic1">热门漫画</li>
+            <li class="headerTags" id="games">赛事</li>
+            <li class="hover" id="games1">热门赛事</li>
+            <li class="headerTags"><img src="../public/畅玩s13.png" id="s13"></li>
+            <li class="headerTags" id="download">下载客户端</li>
+            <li class="hover" id="download1">
+                <div id="peDownload">手机版下载
+                    <img style="width: 70%;"  src="../public/下载.png">
+                </div>
+                <div id="pcDownload">windows下载
+                    <a href=""></a>
+                </div>
+            </li>
+            <li><input type="text" placeholder="   搜索" id="searchbox"></li>
+        </ul>
+        
+        <ul id="headerUl2">
+            <li class="headerTags" id="bigMembers">大会员</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="messages">消息</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="show">动态</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="enshire">收藏</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="history">历史</li>
+            <li class="hover" id=""></li>
+            <li class="headerTags" id="creationCenter">创作中心</li>
+            <li class="hover" id=""></li>
+            <input type="button" value="投稿" id="contribute">
+        </ul>
+        
+        <img id="logo" src="../public/bilibili图标.png">
+    </div>
+    <div id="upper">
+        <div id="headShot"><img id="headShotImg" src="../public/匿名图片.jpg"></div>
+        <div id="upperName">UP姓名</div>
+        <div >
+            <input id="chargeButton" type="button" value="充电">
+        </div>
+        <div >
+            <input id="subscribeButton" type="button" value="关注">
+        </div>
+    </div> 
+    <div id="videoTitle">视频标题（（（</div>
+    <div id="videoTitle2">视频播放量等信息</div>
+    <div class="video">
+       
+        <video id="theVideo" src='../public/test.mp4' controls poster="">
+        
+
+        </video>
+    </div> 
+    <div id="playRateControl">
+        <div>倍速选择</div>
+        <label><input type="radio" name="rate" value="0.5" class="rateChoose">0.5</label> 
+        <label><input type="radio" name="rate" value="1" class="rateChoose" checked>1</label> 
+        <label><input type="radio" name="rate" value="2" class="rateChoose">2</label> 
+        <label><input type="radio" name="rate" value="4" class="rateChoose">4</label> 
+        <input type="button" id="playRateButton" value="切换倍速"> 
+    </div>
+    <div id="dan">
+        <div>弹幕发送</div>
+        <input type="text" id="danSend">
+        <input type="button" id="danButton" value="发送"> 
+    </div>
+    <ul id="commentArea">
+        <div id="userComment">
+            <input id="typeComment" type="text" placeholder="请输入评论">
+            <span><input id="sentButton" type="button" value="发送"></span>
+        </div>
+        
+        <li class="commentCard">
+            <div class="commenterHead"></div>
+            <div class="commenterName">111</div>
+            <div class="theComment">
+                我是一号评论
+                    <div class="time">2023.10.15</div>
+                </div>
+            </div>
+        </li>
+        <li class="commentCard">
+            <div class="commenterHead"></div>
+            <div class="commenterName">222</div>
+            <div class="theComment">
+                我是二号评论
+                    <div class="time">2023.10.16</div>
+                </div>
+            </div>
+        </li>
+        <li class="commentCard">
+            <div class="commenterHead"></div>
+            <div class="commenterName">333</div>
+            <div class="theComment">
+                我是三号评论
+                    <div class="time">2023.10.16</div>
+                </div>
+            </div>
+        </li>
+        <li class="commentCard">
+            <div class="commenterHead"></div>
+            <div class="commenterName">444</div>
+            <div class="theComment">
+                我是四号评论
+                    <div class="time">2023.10.19</div>
+                </div>
+            </div>
+        </li>
+        
+        
+    </ul>
+</body>
+</html>
+<script  src="videos.js"></script>
+<script type="module" src="headerHover.js"></script>
